@@ -79,23 +79,6 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.hilt.compose)
 
-    // splash
-    implementation(libs.androidx.splash)
-
-    // datastore
-    implementation(libs.androidx.datastore)
-
-    // paging
-    implementation(libs.androidx.paging.runtime)
-    implementation(libs.androidx.paging.compose)
-
-    // room
-    implementation(libs.androidx.room.ktx)
-    implementation(libs.androidx.room.runtime)
-    implementation(libs.androidx.room.paging)
-    implementation(libs.androidx.ui.test.junit4.android)
-    ksp(libs.androidx.room.compiler)
-
     // hilt
     implementation(libs.dagger.hilt)
     kapt(libs.dagger.kapt)
